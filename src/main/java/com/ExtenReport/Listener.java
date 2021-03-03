@@ -41,6 +41,12 @@ public class Listener implements ITestListener {
 		extentTest.get().log(Status.PASS, "Test Successful");
 	}
 
+	@Override
+	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
+		// TODO Auto-generated method stub
+		
+	}
+
 	
 }
 
